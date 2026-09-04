@@ -1,43 +1,45 @@
-# Scarpe Yad2 - Real Estate Board
+# Luxury Real Estate Board
 
-A premium, localized (Hebrew/RTL) real estate listing application built with React, Vite, and TypeScript.
-
-![Screenshot](./public/screenshot.png)
+A Hebrew, right-to-left real-estate browsing interface that presents premium listings with rich cards, search filters, and an interactive map. It is a focused React front-end concept for agencies, developers, and property marketplaces that want a more visual way to present inventory.
 
 ## Features
 
-- **Modern Premium Design**: Clean UI with a focus on readability and visual appeal.
-- **RTL Support**: Fully localized for Hebrew speakers with Right-to-Left layout.
-- **Image Carousel**: View multiple property photos with an interactive slider.
-- **Interactive Map**: Built-in OpenStreetMap view to see exact property location.
-- **Advanced Filtering**: Filter properties by price, bedrooms, and bathrooms.
-- **Favorites System**: Mark properties as favorites or hide them from the list.
-- **Responsive Layout**: Works seamlessly on desktop and mobile devices.
+- Responsive Hebrew RTL interface
+- Property cards with pricing, location, specifications, and status
+- Search and property-type filters
+- Interactive Leaflet map with listing markers
+- Synchronized list and map selection
+- Mobile-friendly layout
+- Typed listing data and component props
 
-## Tech Stack
+## Stack
 
-- **Framework**: React 19 + Vite
-- **Language**: TypeScript
-- **Styling**: CSS Modules / CSS Variables
-- **Linting**: ESLint
+- React 19
+- TypeScript
+- Vite
+- Leaflet and React Leaflet
+- CSS
 
-## Getting Started
+## Run locally
 
-1. **Install Dependencies**
-   ```bash
-   npm install
-   ```
+```bash
+git clone https://github.com/delevski/custome-yad2.git
+cd custome-yad2
+npm install
+npm run dev
+```
 
-2. **Run Development Server**
-   ```bash
-   npm run dev
-   ```
+Open the local URL printed by Vite.
 
-3. **Build for Production**
-   ```bash
-   npm run build
-   ```
+## Available scripts
 
-## License
+```bash
+npm run dev      # Start the development server
+npm run build    # Type-check and create a production build
+npm run lint     # Run ESLint
+npm run preview  # Preview the production build
+```
 
-Private project.
+## Project status
+
+This is a front-end portfolio prototype. Listing data is currently local, making it easy to connect the interface to a CMS, CRM, or property API for a production project.
